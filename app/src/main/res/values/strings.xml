@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">First_App</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="about">About Me</string>
+    <string name="contact">Contact Me</string>
+    <string name="more">More</string>
+    <string name="previous">Back</string>
+
+    <string name="welcome">Feel At Home</string>
+    <string name="my_name">Pyra</string>
+    <string name="email">Email: pyra_m.k@yahoo.com</string>
+    <string name="work">Software Developer</string>
+    <string name="place">Place: Nairobi</string>
+    <string name="copyright">Copyright --- All Rights Reserved</string>
+    <string name="hello_first_fragment">Welcome to my First Mobile App made with Kotlin and runs only in Android stuff.</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+</resources>
