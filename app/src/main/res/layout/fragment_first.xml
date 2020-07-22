@@ -4,13 +4,14 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/screenBackground"
     tools:context=".FirstFragment">
 
     <TextView
         android:id="@+id/textView_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
         android:background="#000000"
         android:fontFamily="sans-serif-black"
         android:lineSpacingExtra="8sp"
@@ -20,7 +21,6 @@
         android:textSize="28sp"
         android:textStyle="bold|italic"
         android:typeface="sans"
-        android:layout_gravity="center"
         app:layout_constraintBottom_toTopOf="@id/textView_second"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.484"
@@ -30,19 +30,13 @@
 
     <TextView
         android:id="@+id/textView_second"
-        android:layout_width="312dp"
-        android:layout_height="46dp"
-        android:layout_marginTop="96dp"
-        android:layout_marginEnd="48dp"
-        android:layout_marginRight="48dp"
-        android:fadingEdge="horizontal|vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="150dp"
         android:fontFamily="serif"
         android:lineSpacingExtra="10sp"
-        android:layout_gravity="center"
-        android:shadowColor="#000000"
-        android:shadowDx="20"
-        android:shadowDy="20"
-        android:shadowRadius="20"
+        android:padding="10dp"
         android:soundEffectsEnabled="true"
         android:text="@string/hello_first_fragment"
         android:textAllCaps="false"
@@ -50,7 +44,6 @@
         android:textColor="@android:color/secondary_text_light"
         android:textSize="15sp"
         android:typeface="normal"
-        app:layout_constraintBottom_toTopOf="@id/imageView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -58,26 +51,29 @@
         android:id="@+id/button_first"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:layout_marginLeft="20dp"
         android:text="@string/about"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.16"
+        app:layout_constraintHorizontal_bias="0.106"
+        app:layout_constraintRight_toRightOf="@id/button_second"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView_second"
-        app:layout_constraintVertical_bias="0.394" />
+        android:layout_marginStart="20dp" />
 
     <Button
         android:id="@+id/button_second"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="164dp"
+        android:layout_marginRight="20dp"
         android:text="@string/contact"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.839"
+        app:layout_constraintHorizontal_bias="0.789"
         app:layout_constraintRight_toLeftOf="@id/button_first"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/textView_second"
-        app:layout_constraintVertical_bias="0.394" />
+        android:layout_marginEnd="20dp" />
 
     <TextView
         android:id="@+id/textView_third"
@@ -92,33 +88,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <Button
-        android:id="@+id/button_more"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="160dp"
-        android:layout_marginRight="160dp"
-        android:text="@string/more"
-        android:layout_gravity="center"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/button_second"
-        app:layout_constraintVertical_bias="0.124" />
 
-    <ImageView
-        android:id="@+id/imageView2"
-        android:layout_width="144dp"
-        android:layout_height="143dp"
-        android:layout_marginTop="23dp"
-        android:layout_marginEnd="144dp"
-        android:layout_marginRight="144dp"
-        android:layout_marginBottom="73dp"
-        android:contentDescription="@string/about"
-        app:layout_constraintBottom_toBottomOf="@+id/button_second"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_second"
-        app:layout_constraintVertical_bias="0.333"
-        app:srcCompat="@drawable/code"
-        android:layout_gravity="center"
-        tools:src="@tools:sample/avatars" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>

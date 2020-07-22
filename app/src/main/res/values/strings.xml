@@ -4,11 +4,17 @@
     <!-- Strings used for fragments for navigation -->
     <string name="first_fragment_label">First Fragment</string>
     <string name="second_fragment_label">Second Fragment</string>
-    <string name="about">About Me</string>
-    <string name="contact">Contact Me</string>
-    <string name="more">More</string>
+
+<!--    buttons-->
     <string name="previous">Back</string>
 
+<!--navBar-->
+    <string name="home">Home</string>
+    <string name="about">About Me</string>
+    <string name="contact">Contact Me</string>
+    <string name="projects">Projects</string>
+
+<!--words-->
     <string name="welcome">Feel At Home</string>
     <string name="my_name">Pyra</string>
     <string name="email">Email: pyra_m.k@yahoo.com</string>
